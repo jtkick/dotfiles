@@ -1,0 +1,2 @@
+# Where we're cloning the repository. Prevents recursion.
+.cfg
