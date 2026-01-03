@@ -143,3 +143,11 @@ if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
   POWERLINE_BASH_SELECT=1
   source /usr/share/powerline/bindings/bash/powerline.sh
 fi
+
+# Quick fix to make the prompt appear at the top of a new URXVT window
+clear
+
+# Add our Flutter version
+export PATH="$PATH:/home/jared/Development/.flutter/flutter/bin"
+
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
